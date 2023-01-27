@@ -31,7 +31,7 @@ cp -r /work/.piperider/outputs/latest/ /work/jaffle_shop/target/piperider/
 
 # dbt
 echo "========serve dbt docs========"
-echo "dbt=> http://localhost:8080/piperider/latest/index.html"
-echo "piperider=> http://localhost:8080/index.html"
+echo "dbt=> http://localhost:8080/index.html"
+echo "piperider=> http://localhost:8080/piperider/latest/index.html"
 dbt docs serve --project-dir /work/jaffle_shop --profiles-dir /work/
 
