@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  dbt_sandbox:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
