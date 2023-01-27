@@ -23,7 +23,7 @@ piperider init
 piperider diagnose
 piperider run
 piperider generate-assertions
-piperider run
+piperider run --dbt-state ./jaffle_shop/target
 
 # 汚いけど、piperiderのドキュメントをdbt serveでまとめて見れるように配置...
 mkdir /work/jaffle_shop/target/piperider/
